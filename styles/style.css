@@ -1,0 +1,40 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background-color: #eee;
+}
+
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#main-navigation{
+    background: #181818;
+    padding: 10px;
+}
+
+#main-navigation ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-navigation a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.current{
+    background-color: #8f746c;
+    border-radius: 10px;
+}
